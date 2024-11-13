@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://raw.githubusercontent.com/Immanuel30/shopease_Azure_data_migration/refs/heads/main",
+			"url": "https://raw.githubusercontent.com/Immanuel30/shopease_Azure_data_migration/refs/heads/main/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
