@@ -1,0 +1,23 @@
+{
+	"name": "cleaned_customers_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "shopease_datalake_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "gold/customers",
+				"fileSystem": "shopease-container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "",
+			"firstRowAsHeader": true,
+			"quoteChar": ""
+		},
+		"schema": []
+	}
+}

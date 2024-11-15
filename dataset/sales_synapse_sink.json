@@ -1,0 +1,16 @@
+{
+	"name": "sales_synapse_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "shopease_synapse_service",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "sales"
+		}
+	}
+}
