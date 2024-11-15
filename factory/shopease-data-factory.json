@@ -1,0 +1,9 @@
+{
+	"name": "shopease-data-factory",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9ece0a97-7b12-428b-9b8e-995402bcd59c",
+		"tenantId": "82d80100-7fb3-4d68-a357-0fd9226490be"
+	}
+}
