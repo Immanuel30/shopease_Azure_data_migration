@@ -12,6 +12,9 @@ ShopEase Retail depends on an outdated on-premise database system for managing e
 ## Proposed Solution
 To stay competitive and improve its business operations, ShopEase must transition to a more scalable, cost-effective, and dependable cloud-based data infrastructure. This move will not only alleviate the maintenance demands of on-premise resources but also enhance data accessibility, allowing advanced analytics to drive business insights and elevate the customer experience.
 
+## Architecture
+![My Image](Images/Pipeline_architecture.png)
+
 ## Project Workflow
 1. Data Extraction from Local Environment
 Data was initially stored in the on-premises systems and needed to be extracted for migration.
@@ -30,4 +33,5 @@ The data was loaded into structured tables, where it could be queried for busine
 Azure Data Factory was used to orchestrate the entire data migration pipeline.
 Azure Data Factory pipelines were set up to automate the entire data flow, ensuring seamless data extraction, transfer, transformation, and loading.
 The pipelines were scheduled to run at specific intervals to allow continuous data sync between the on-premises environment and the Azure Cloud.
+
 
